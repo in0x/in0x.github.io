@@ -5,5 +5,5 @@ $(document).ready(function(){
 		$('#variable').html(tags[index])
 		index++
 		if (index == tags.length) index = 0
-	}, 3000)
+	}, 1500)
 })
