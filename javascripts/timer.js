@@ -1,9 +1,8 @@
-$(document).ready(function(){
-	var index = 0
-	var tags = ['coding', 'tech', 'Javascript', 'traveling', 'books']
-	window.setInterval(function () {
-		$('#variable').html(tags[index])
-		index++
-		if (index == tags.length) index = 0
-	}, 2000)
-})
+$(document).ready(function() {
+ 	$(function(){
+    	$(".variable").typed({
+    		strings: ['Coding^300', 'Tech^300', 'Javascript^300', 'Traveling^300', 'Books^300'],
+            typeSpeed: 90
+            });
+        });
+ })
