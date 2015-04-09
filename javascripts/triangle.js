@@ -60,6 +60,6 @@ $(document).ready(function () {
 
   var elements = []
   elements.push(new Triangle({x: 600, y: 1000}, {x: 1400, y: 1000}, {x: 1000, y: 350}))
-  sierpinski(elements, 7)
+  sierpinski(elements, window.location.search.replace('?', ''))
   console.log(elements.length)
 })
