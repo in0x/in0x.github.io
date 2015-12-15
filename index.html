@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="javascripts/typed.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,48 +21,70 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Phil Welsch <i class="fa fa-heart" id="firstHeart"></i> </h1>
+        <h1>Phil Welsch is </h1>
         <h1 style="margin-top: -10px;"><var class="variable">coding</var></h1>
-        <p>A blog on whatever spills out of my brain</p>
+        <p>Hi! I'm a third semester CompSci Student majoring in Game and Mixed Reality Engineering.</p>
+        <p>I'm interested in using new technologies to create the best projects and experiences.</p>
+        <p>I also adore video games and love thinking about how to make them even greater.</p>
         <p>Visit me on: </p>
         <p class="view"><a href="https://github.com/in0x"><i class="fa fa-github"></i> GitHub</a></p>
         <p class="view"><a href="https://www.facebook.com/philipp.welsch"><i class="fa fa-facebook-official"></i> Facebook<a></p>
         <p class="view"><a href="mailto:pwelsch.mmt-b2014@fh-salzburg.ac.at"><i class="fa fa-paper-plane"></i> Email</a></p>
         <p class="view"><a href="https://www.codewars.com/users/inox"><i class="fa fa-code"></i> Codewars</a></p>
-      </header>
-      <section>
-         <h1>If all of your Valgrind builds are failing:</h1>
-         <pre><code>sudo port install valgrind-devel</code></pre>
-         <p><i>You're welcome</i></p>
-        <a href="http://in0x.github.io/tri?7"><h3>Drawing Sierpinski-Triangle in JS: </h3><a>
-        <a href="http://in0x.github.io/tree?5"><h3>Drawing Binary Tree</h3></a>
-
-        <p>Some theme testing</p>
-        <ol>
-        <li><p>a bit of code<p>
-        <pre><code>console.log('Hello World!')</code></pre></li>
-        <li><p>and some more</p><pre><code>function fizzbuzz(n)
-{
-  var i = 1, arr = [];
-  while(i <= n) {
-    var fizz = (i % 3 == 0);
-    var buzz = (i % 5 == 0);
-    if(fizz || buzz) {
-      arr.push((fizz?"Fizz":"") + (buzz?"Buzz":""));
-    }
-    else {
-      arr.push(i);
-    }
-    i++;
-  }
-  return arr;
-}</code></pre></li>
-        </ol> 
-      </section>
-      <footer>
+        <footer>
         <p>This site is maintained by <a href="https://github.com/in0x/in0x.github.io">Philipp Welsch</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
+      </header>
+      
+      <section>
+        <h1> Reality Ruckus </h1>
+        <p> My current project is a 2D semi turn-based Roguelike called Realtity Ruckus. 
+          It is being developed in cooperation with 2 of my fellow students as part of our MMP2a (MultiMediaProject).</p>
+        <p> In Reality Ruckus, you are a hero who has been chosen to restore order to time and space following a catastrophic event which collapsed multiple
+            realites into each other. Along the way you will meet fellow heroes who have been forced to leave their dimension. </p>
+        <p> You will have to explore randomly generated areas and face a multitude of foes in order to collect fragments of an artifact, which is the only hope
+             to restore order back to space and time.</p>
+        <p>Upon finding all artifact fragments in an area, your hero will have to travel to the next dimension, where he will have to face yet newer challenges. <p>
+        <img src="img/rr.png"/>
+        <i>An early development screenshot of Reality Ruckus' Sci-Fi setting</i>
+      </section>
+      
+      <section>
+        <h1> Flight </h1>
+        <p> Flight was the first full game I made I felt was worthy of putting it out. It was created for my second semester MMP. You race through a foggy forest, continously getting faster
+          while dodging trees in your path and collecting pick-ups that double your score multiplier and slow or speed you up.</p>
+        <p><a href="http://slides.com/philippwelsch/deck-2#/">This slideshow</a> provides a more in-depth explanation of the game.</p>
+          
+         <div id="captioned-gallery">
+          <figure class="slider">
+            <figure>
+              <img src="img/flight1.png" alt>
+              <figcaption>The Start Screen</figcaption>
+            </figure>
+            <figure>
+              <img src="img/flight2.png" alt>
+              <figcaption>The green, red and blue Icosahedrons represent power-ups</figcaption>
+            </figure>
+            <figure>
+              <img src="img/flight3.png" alt>
+              <figcaption>In Game</figcaption>
+            </figure>
+            <figure>
+              <img src="img/flight4.png" alt>
+              <figcaption>Compete with other players</figcaption>
+            </figure>
+          </figure>
+        </div>
+      </section>
+      
+      <section>
+        <br>
+        <br>
+        <a href="http://in0x.github.io/tri?7"><h3>Drawing a Sierpinski-Triangle in JS: </h3><a>
+        <a href="http://in0x.github.io/tree?5"><h3>Drawing a Binary Tree in JS</h3></a>
+      </section>
+      
     </div>
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/timer.js"></script>

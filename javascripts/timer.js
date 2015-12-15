@@ -1,7 +1,7 @@
 $(document).ready(function() {
  	$(function(){
     	$(".variable").typed({
-    		strings: ['Coding^300', 'Tech^300', 'Javascript^300', 'Traveling^300', 'Books^300', 'mmt^300'],
+    		strings: ['a passionate programmer^300', 'curious^300', 'a C++ and Game Dev^300', 'a programming language lover^300','always learning^300', 'an eSports enthusiast', 'creating awesome experiences'],
             typeSpeed: 90
             });
         });
